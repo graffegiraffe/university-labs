@@ -38,7 +38,7 @@ int main() {
     for (int i = 0; i < cnt_num; i++) {
         cout << numbers[i] << " ";
     }
-    cout << "\n\nБуквы: \n";
+    cout << "\n\nБуквочки: \n";
     for (int i = 0; i < cnt_lit; i++) {
         cout << liters[i] << " ";
     }
