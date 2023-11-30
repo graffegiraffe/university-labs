@@ -1,0 +1,250 @@
+```
+\documentclass[10pt, a4paper]{article}
+%❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤ 
+\usepackage{CJKutf8}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol} %колонки
+\usepackage{setspace} %межстрочный интервал
+\usepackage{ragged2e}% выравнивания текста по ширине в документе.
+\usepackage{fancyhdr} %настройки верхнего и нижнего колонтитулов в документе.
+\usepackage{titlesec} %стилей заголовков разделов в документе.
+\usepackage{enumitem} %настройки списков в документе.
+\usepackage{graphicx}%Вставка картинок правильная
+\usepackage{float}%"Плавающие" картинки
+\usepackage{wrapfig}%Обтекание фигур (таблиц, картинок и прочего)
+
+\usepackage[left=1.9cm,right=1.9cm, top=2.2cm,bottom=2.5cm]{geometry}
+
+\justifying % выравнивает текст по ширине.
+\fancyhf{} %очищает все верхние и нижние колонтитулы.
+\renewcommand{\headrulewidth}{0pt} % remove the header rule
+\cfoot{\vskip -1.5cm \thepage} %устанавливает номер страницы в нижнем колонтитуле.
+
+\linespread{0.84} %устанавливает межстрочный интервал в 0.84.
+
+
+\setlength{\columnsep}{0.5cm}
+\setcounter{page}{174}
+\renewcommand{\thesection}{\Roman{section}} %устанавливает стиль нумерации разделов в виде заглавных римских цифр.
+
+\titleformat{\section}{\footnotesize\centering\sc}{\thesection.}{0cm}{}[] %настраивает стиль заголовков разделов.
+
+
+
+
+
+\begin{document}
+
+
+\fontsize{10}{14}\selectfont
+\begin{multicols}{2}
+\setlength{\parindent}{0.8cm}
+\textbf{\}\\}\par
+\setlength{\parindent}{0.4cm}
+\fontsize{10}{15}\selectfont
+Let us consider the main structure of SC-model of problem solver for conversion natural language texts into knowledge base fragments and generation natural language texts from knowledge base fragments in natural language interfaces of ostis-systems in SCn-code, respectively: \newline \par
+
+\setlength{\parindent}{0cm}
+\small\textit{\textbf{SC-model of problem solver for conversion natural  \indent language texts into knowledge base fragments}}\newline
+\normalsize
+\fontsize{10}{13}\selectfont
+\textbf{:=} \quad [SC-model of problem solver for natural language \par
+\setlength{\parindent}{0.92cm} texts analysis]\par
+\setlength{\parindent}{0cm}
+\(\Leftarrow\) \quad \textit{decomposition of an abstract sc-agent*:}\par
+\setlength{\parindent}{0.8cm}
+\textbf{\{}•\quad\textit{Abstract sc-agent of lexical analysis} \par
+\setlength{\parindent}{0.8cm}
+\(\Leftarrow\)  \quad\textit{decomposition of an abstract sc-agent*:}\par
+\setlength{\parindent}{1.6cm}
+\textbf{\{}•\quad\textit{Abstract sc-agent of decomposing}\par
+\setlength{\parindent}{2.35cm}
+\textit{texts into segmentation units}\par
+\setlength{\parindent}{1.8cm}
+•\quad\textit{Abstract sc-agent of marking up}\par 
+\setlength{\parindent}{2.35cm}
+\textit{segmentation units}\par
+\setlength{\parindent}{1.6cm}
+\textbf{\}}\par
+\setlength{\parindent}{1cm}
+•\quad\textit{Abstract sc-agent of syntactic analysis}\par
+•\quad\textit{Abstract sc-agent of semantic analysis}\par
+•\quad\textit{Abstract sc-agent of extracting factual}\par
+\setlength{\parindent}{1.55cm}
+\textit{knowledge structures into the knowledge}\par
+\textit{base}\par
+\setlength{\parindent}{1cm}
+•\quad\textit {Abstract sc-agent of logical inference} \par
+\setlength{\parindent}{0.8cm}
+\textbf{\}\\}\par
+\setlength{\parindent}{0.4cm}
+
+\fontsize{10}{16}\selectfont
+ The SC-model of problem solver for natural language text analysis is constructed on the basis of the proposed following process for factual knowledge acquisition:
+\begin{itemize} [noitemsep] \fontsize{10}{15}\selectfont
+\item natural language text is loaded into the interface;
+\item lexical analysis and syntactic analysis of the input natural language text is performed;
+\item named entities and relations between them is extracted based on the analyzed syntactic structure and extraction rules.
+\end{itemize} \par
+\setlength{\parindent}{0.4cm}
+
+\fontsize{10}{16}\selectfont
+In principle, this SC-model of problem solver can potentially extract structured knowledge (generally, named entities and relations between them) from texts in different language into the knowledge base of the ostis-systems for a specific subject domain, but the construction of knowledge base on the specific natural language processing, which includes rules for specific natural language processing and extraction rules, will become more complex. In turn overhead costs of construction will increase.
+
+
+\fontsize{10}{15}\selectfont
+For generation natural language texts from knowledge base fragments the classical pipeline of natural language generation is used as the basis to develop the SC-model of problem solver for generation natural language texts from knowledge base fragments. The developed SC-model of problem solver has higher flexibility. For specific natural language, the developed problem solver can be easily modified accordingly.
+\vspace{8pt}
+
+\fontsize{10}{15}\selectfont
+\small\textbf{\textit {SC-model of problem solver for generation natural  \indent language texts from knowledge base fragments}}\par
+\setlength{\parindent}{0cm}
+
+\normalsize
+\fontsize{10}{14}\selectfont
+\setlength{\parindent}{0.4cm}
+\textbf{:=} \quad \noindent[SC-model of problem solver for natural\par
+\setlength{\parindent}{1.38cm}
+language texts generation]\par
+%\setlength{\parindent}{0cm}
+\setlength{\parindent}{0.4cm}
+\(\Leftarrow\) \quad \textit{decomposition of an abstract sc-agent*:}\par
+\setlength{\parindent}{0.8cm}
+\textbf{\{}•\quad\textit{Abstract sc-agent determining}\par
+\setlength{\parindent}{1.6cm}
+\textit{sc-structure} \par
+\setlength{\parindent}{1cm}
+•\quad\textit{Abstract sc-agent dividing determined}\par
+\setlength{\parindent}{1.6cm}
+\textit{sc-structure into basic sc-constructions}\par
+\setlength{\parindent}{1cm}
+•\quad\textit{Abstract sc-agent determining the}\par
+\setlength{\parindent}{1.6cm}
+\textit{candidate sc-constructions}\par
+\setlength{\parindent}{1cm}
+•\quad\textit{Abstract sc-agent transferring candidate}\par
+\setlength{\parindent}{1.6cm}
+\textit{sc-constructions into message triples}\par
+\setlength{\parindent}{1cm}
+•\quad\textit{Abstract sc-agent text planning}\par
+•\quad\textit{Abstract sc-agent for micro-planning}\par
+•\quad\textit{Abstract sc-agent for surface realization}\par
+\setlength{\parindent}{0.8cm}
+\textbf{\}\\}\par
+
+
+\fontsize{10}{15}\selectfont
+The SC-model of problem solver for natural language texts generation is constructed on the basis of the proposed following process for texts generation:
+\begin{itemize} [noitemsep]
+\item a specific sc-structure (fragment of knowledge base) is selected in the knowledge base;
+\item the candidate basic sc-constructions from the sc- structure is determined, then is translated into a message triple (in the form of subject-relation- object);
+\item the resulted natural language texts is generated from the message triple as output.
+\end{itemize}
+
+\fontsize{10}{14}\selectfont
+\quad It is worth noting that the composition of sc-constructs has sc-arcs that have specific meanings. Therefore sc- constructions with sc-arcs need to be converted into the corresponding message triples in form of text, which is easier to represent in the form of natural language texts.
+
+
+\fontsize{10}{14}\selectfont
+\quad The developed unified semantic model of natural language interface ensures the flexibility of developing a specific natural language interface and integration of various components (knowledge base on natural language processing, component for conversion natural language texts into knowledge base fragment and component for text generation) in the interface.The development of natural language interface consists in the development of individual components independently of each other. It is flexible to adjust and make extensions of linguistic knowledge and sc-agents for tasks solution in specific natural language interface. The more detailed description about function of each abstract sc-agent can be seen in [2].
+
+
+\fontsize{11}{11}\selectfont
+
+ \section*{IV. Imlementation of Chinise Langu INTERFACE}
+ 
+ \fontsize{10}{13}\selectfont
+ \quad On the basis of unified semantic model of natural language interfaces of ostis-systems, we can implement a specific natural language interface of intelligent help systems for various subject domains. In this section we will describe the implementation of the prototype of Chinese language interface of a intelligent help system
+  \newpage
+  \noindent about discrete mathematics. For developing Chinese language interface it’s necessary to construct knowledge base on Chinese language processing and corresponding problem solvers for conversion Chinese language texts into sc-structures and Chinese language texts from sc-structures, which to integrate logical models on rules and neural network models for Chinese language processing. The detailed processing stage of conversion Chinese language texts into sc-structures and generation Chinese language texts from sc-structures will be shown in followings.
+  \vspace{-5pt}
+\subsection*{\fontsize{10}{14}\selectfont\textnormal{\textit{A.factual knowledge extraction from Chinese language texts}}}
+%\small\textit{A.factual knowledge extraction from Chinese language \indent texts}
+
+
+\quad Currently there are some restrictions for extracting factual knowledge from Chinese language texts:
+\begin{itemize} [noitemsep] \fontsize{10}{13}\selectfont
+\item the processed Chinese language texts are Chinese declarative sentences;
+\item there are specific factual knowledge (named entities and relations between them) in the Chinese declara- tive sentences;
+\item due to features of Chinese language, the result of decomposition of Chinese declarative sentences into segmentation units greatly influences the factual knowledge extraction.
+\end{itemize}
+\fontsize{10}{13}\selectfont
+
+\quad In this section the general processing stage of conver- sion Chinese declarative sentence into sc-structure will be shown in the followings.
+
+%\tableofcontents
+
+
+
+\fontsize{10}{12}\selectfont
+\quad \textit{Step 1:} From the point of view of OSTIS technology, any natural language text is a file (sc-node with content or so-called sc-file). The Chinese declarative sentence shown in our example is represented in such a node in Fig 2 and describes: "\begin{CJK}{UTF8}{gbsn}有限集合\end{CJK}(the finite set), (comma) \begin{CJK}{UTF8}{gbsn}严格地\end{CJK} (strictly) \begin{CJK}{UTF8}{gbsn}包含 \end{CJK}((includes) \begin{CJK}{UTF8}{gbsn}  二元组 \end{CJK}((pairs)\begin{CJK}{UTF8}{gbsn} 。\end{CJK}(full stop)".
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{5.png}
+   
+\end{figure}
+
+\fontsize{10}{11}\selectfont
+As shown in Fig 2, according to the written tradition of Chinese language texts, Chinese characters are written one after the other and there are no natural gaps between them. As we know, the lexeme is a term commonly used for lexical analysis in European  processing. However in Chinese language processing the  unit is considered as the smallest unit . In the "Modern Chinese word segmentation standard used for information processing", a word in Chinese language is represented as a segmentation unit. The precise definition of segmentation units is "a basic unit for Chinese language processing with certain semantic or grammatical functions".
+\fontsize{10}{15}\selectfont
+
+
+\textit{Step 2:} The Chinese declarative sentence is decomposed into separate segmentation units, lexical analysis is carried out. Afterwards syntactic structure or semantic structure of
+sentence is analysed, the relations between input sentence and divided segment units, as well as between these segment units in sentence are revealed. The analyzed results of input Chinese sentence is shown in the Figure 3.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{4.png}
+    %\caption{\small{The syntactic structure of input Chinese sentence}}
+\end{figure}
+\fontsize{10}{14}\selectfont
+\textit{Step 3:} The factual knowledge that mainly consists of named entities and relations between them is extracted based on previous text analysis and extraction rules without contradiction detection. The resulted constructed knowledge base fragment (sc-structure) from input Chi- nese declarative sentence is shown in the Figure 4.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{3.png}
+    %\caption{\small{The syntactic structure of input Chinese sentence}}
+\end{figure}
+It is important to note that in this case, a knowledge base fragment can be directly converted into knowledge base without linking extracted named entities and relations between them from the input Chinese sentence with the corresponding entities and relations defined in the knowledge base of intelligent help system.  \newpage
+\textit{B. text generation from knowledge base}
+\fontsize{10}{14}\selectfont
+
+
+\quad In this section the processing stage of generation Chinese declarative sentence from sc-structure is de- scribed. The processing stage is roughly divided into two steps: firstly converting sc-structure from knowledge base into message triples; then generating Chinese declarative sentence from translated message triples. The description about concept message triple can be found in [14].
+
+In our works there are some restrictions for Chinese lan- guage texts generation from knowledge base fragments:
+\begin{itemize} [noitemsep]\fontsize{10}{14}\selectfont
+\item the knowledge base fragment is completed and has sc-elements with identifiers in Chinese language;
+\item the generated Chinese language texts are Chinesedeclarative sentences.
+\end{itemize}
+\fontsize{10}{14}\selectfont
+\textit{Step 1:} The selected sc-structure is divided into standard basic sc-constructions, afterwards from which the candidate sc-construction is selected and will be converted into "message triple", then into resulted Chinese sentences. A candidate sc-construction (belong to standard basic sc- construction) is shown in SCg (Figure 5). The candidate sc-construction contains sc-elements with identifiers in Chinese language. Identifiers in Chinese language of each sc-element of sc-construction have corresponding specific segmentation units of Chinese language.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{6.png}
+    %\caption{\small{The syntactic structure of input Chinese sentence}}
+\end{figure}
+\fontsize{10}{14}\selectfont
+\textit{Step 2:} The candidate sc-construction is transferred to message triple. The converted message triple consists of sc-files (sc-node with content) containing segmentation units written by trained native Chinese speakers and verified by others. The message triple that corresponds to candidate sc-construction is generated in the Figure 6, in which each sc-element is a file corresponding to a certain segment unit in Chinese language. The contents of some sc-files (e.g. "\begin{CJK}{UTF8}{gbsn}临界图\end{CJK}(critical graph)") correspond to the identifier of sc-element in the sc-construction, meanwhile the contents of some sc-files are added when building message triple.
+\fontsize{10}{15}\selectfont
+
+
+It is important to note that relation of each message triple is the core. Sometimes the relation represents the specific meaning of sc-arc or sc-edge in the sc-structure in form of texts. The main task of text generation is to find suitable text fragment to explain the relation of each message triple in order to generate fluent texts. In general, the subject and object of each message triple are kept constant.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{7.png}
+    %\caption{\small{The syntactic structure of input Chinese sentence}}
+\end{figure}
+\textit{Step 3:} Finally the sc-files are concatenated with certain form of that segment units to generate the resulting Chinese narrative sentence according to the permissible sequence on the constructed template for message triple with the relation "inclusion" (Figure 7). When generating result texts for some natural languages, word forms are changed according to syntactic rules (e.g. capitalizing the first word in a sentence, subject–verb agreement and others), and then added to the result texts. The relation \textit{reference expression*} is a quasi-binary relation, connecting a word to its combinatory variants.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{8.png}
+    %\caption{\small{The syntactic structure of input Chinese sentence}}
+\end{figure}
+For some European languages, The inflected form of the lexical units in sc-files (e.g. singular or plural and other inflected forms) is expressed in the resulted generated texts according to the syntactic rules of a particular natural language. However, due to features of Chinese language, the processing of this step is relatively easier. In this
+
+
+
+
+
+\end{multicols}
+\end{document}
+```
