@@ -1,0 +1,3 @@
+/Users/katusarublevsk/Desktop/BSUIR/ОАИП/laba 2/cmake-build-debug/CMakeFiles/laba_2.dir
+/Users/katusarublevsk/Desktop/BSUIR/ОАИП/laba 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/katusarublevsk/Desktop/BSUIR/ОАИП/laba 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
