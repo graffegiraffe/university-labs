@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/katusarublevsk/ontologies/2024/3/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/katusarublevsk/ontologies/2024/3/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/katusarublevsk/ontologies/2024/3/untitled-ontology-4/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Органические_соединения"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Химические_соединения"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Агрегатное_состояние"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Вид_углеводорода"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Запах"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Применение"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Промышленность"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Синтезация_компонентов"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Токсометрический_показатель"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Цвет"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Бензол"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Органические_соединения"/>
+        <Class IRI="#Химические_соединения"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Органические_соединения"/>
+        <NamedIndividual IRI="#Бензол"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Агрегатное_состояние"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Жидкость</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Вид_углеводорода"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Простейший</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Запах"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Спецефический сладковатый</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Применение"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Входит в состав бензина</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Применение"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Входит в состав сырой нефти</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Промышленность"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Исходное сырье для красителей</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Промышленность"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Исходное сырье для лекарств</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Промышленность"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Исходное сырье для синтетической резины</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Промышленность"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Сырье для различных пластмасс</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Синтезация_компонентов"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Множество компонентов Х</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Токсометрический_показатель"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Концерогенен</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Токсометрический_показатель"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Токсичен</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Цвет"/>
+        <NamedIndividual IRI="#Бензол"/>
+        <Literal>Отсутствует</Literal>
+    </DataPropertyAssertion>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Промышленность"/>
+        <DataProperty IRI="#Применение"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Синтезация_компонентов"/>
+        <DataProperty IRI="#Промышленность"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
