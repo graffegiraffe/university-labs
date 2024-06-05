@@ -1,0 +1,7 @@
+Grime 56 10
+Limit 43 2
+Plate 900 100
+Fastening 200 6
+Wheel 1000 5
+Kate 78 9
+Bearing 783 10
