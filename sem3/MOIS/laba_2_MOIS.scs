@@ -1,0 +1,127 @@
+    
+section_subject_domain_of_convolutional_neural_network = [*
+        subject_domain_of_convolutional_neural_network => nrel_main_idtf:[Предметная область сверточная нейросеть] (*<- lang_ru;;*);[Subject domain of convolutional neural networks](*<- lang_en;;*);
+                               <- sc_node_struct;
+                               -> rrel_explored_relation: nrel_architecture_design; 
+                                                        nrel_training_and_validation;
+                                                        nrel_image_processing;
+                                                        nrel_video_processing;
+                                                        nrel_object_generation; 
+                                                        nrel_object_optimization; 
+                                                        nrel_interpretation_of_results;
+
+                               => nrel_private_subject_domain: subject_domain_of_architecture;
+                                                               subject_domain_of_applications; 
+                                                               subject_domain_of_training; 
+                                                               subject_domain_of_image_processing; 
+                                                               subject_domain_of_video_processing; 
+                                                               subject_domain_of_optimization;                      
+                               <- subject_domain;
+                               -> rrel_maximum_studied_object_class: concept_neural_networks; 
+                               -> rrel_not_maximum_studied_object_class: concept_feed_forward_neural_networks; 
+                                                                         concept_convolutional_neural_network;                
+                                                                         concept_recurrent_neural_network ;;                          
+*];;
+
+
+
+section_subject_domain_of_convolutional_neural_network  => nrel_main_idtf:[Раздел. Предметная область сверточная нейросеть] (*<- lang_ru;;*);[Subject domain of convolutional neural networks](*<- lang_en;;*);
+                                <= nrel_section_decomposition: ...
+                                                            (* <-sc_node_tuple;; 
+                                                               -> section_subject_domain_of_architecture;;
+                                                               -> section_subject_domain_of_applications;;
+                                                               -> section_subject_domain_of_training;;
+                                                               -> section_subject_domain_of_image_processing;;
+                                                               -> section_subject_domain_of_video_processing;;
+                                                               -> section_subject_domain_of_optimization;;
+                                                             *);
+                                -> rrel_key_sc_element: nrel_architecture_design; 
+                                                        nrel_training_and_validation;
+                                                        nrel_image_processing;
+                                                        nrel_video_processing;
+                                                        nrel_object_generation; 
+                                                        nrel_object_optimization; 
+                                                        nrel_interpretation_of_results;
+                                <- non_atomic_section;;
+  
+  
+                                
+                                   
+nrel_architecture_design  <- sc_node_norole_relation; 
+                               => nrel_main_idtf:[проектирование архитектуры*] (*<- lang_ru;;*);[architecture_design](*<- lang_en;;*);;
+                               
+nrel_training_and_validation <- sc_node_norole_relation; 
+              => nrel_main_idtf:[обучение и валидация*] (*<- lang_ru;;*);[raining and validation*](*<- lang_en;;*);;
+                               
+ nrel_image_processing <- sc_node_norole_relation; 
+              => nrel_main_idtf:[генерация изображений*] (*<- lang_ru;;*);[image processing*](*<- lang_en;;*);;
+                               
+ nrel_video_processing <- sc_node_norole_relation; 
+          => nrel_main_idtf:[генерация видео*] (*<- lang_ru;;*);[video processing*](*<- lang_en;;*);;
+ 
+nrel_object_generation <- sc_node_norole_relation; 
+                 => nrel_main_idtf:[генерация объектов*] (*<- lang_ru;;*);[object generation*](*<- lang_en;;*);;
+                               
+nrel_object_optimization <- sc_node_norole_relation; 
+                     => nrel_main_idtf:[оптимизация*] (*<- lang_ru;;*);[optimization*](*<- lang_en;;*);;
+
+nrel_interpretation_of_results <- sc_node_norole_relation; 
+                     => nrel_main_idtf:[интерпретация результатов*] (*<- lang_ru;;*);[nterpretation of results*](*<- lang_en;;*);;                               
+
+
+
+
+section_subject_domain_of_architecture => nrel_main_idtf:[Раздел. Предметная область архитектуры] (*<- lang_ru;;*);[Section. Subject domain of architecture](*<- lang_en;;*); 
+                                       <- sc_node_struct;;
+
+section_subject_domain_of_applications => nrel_main_idtf:[Раздел. Предметная область применения] (*<- lang_ru;;*);[Section. Subject domain of applications](*<- lang_en;;*);   
+                                       <- sc_node_struct;;
+
+section_subject_domain_of_training => nrel_main_idtf:[Раздел. Предметная область обучения] (*<- lang_ru;;*);[Section. Subject domain of training](*<- lang_en;;*);
+                                   <- sc_node_struct;;
+
+section_subject_domain_of_image_processing => nrel_main_idtf:[Раздел. Предметная область генерации изображений] (*<- lang_ru;;*);[Section. Subject domain of image processing](*<- lang_en;;*);
+                                           <- sc_node_struct;;
+
+section_subject_domain_of_video_processing => nrel_main_idtf:[Раздел. Предметная область генерации видео] (*<- lang_ru;;*);[Section. Subject domain of video processing ](*<- lang_en;;*);
+                                           <- sc_node_struct;;
+    
+section_subject_domain_of_optimization => nrel_main_idtf:[Раздел. Предметная область оптимизации] (*<- lang_ru;;*);[Section. Subject domain of optimization](*<- lang_en;;*);
+                                       <- sc_node_struct;;
+                                                     
+                                                     
+  
+                                                     
+subject_domain_of_architecture => nrel_main_idtf:[Предметная область архитектуры] (*<- lang_ru;;*);[Subject domain of dogs](*<- lang_en;;*);
+                        <- sc_node_struct;;
+                               
+subject_domain_of_applications => nrel_main_idtf:[Предметная область применения] (*<- lang_ru;;*);[Subject domain of cats](*<- lang_en;;*);
+                        <- sc_node_struct;;
+                               
+subject_domain_of_training => nrel_main_idtf:[Предметная область обучения] (*<- lang_ru;;*);[Subject domain of fish](*<- lang_en;;*);
+                           <- sc_node_struct;; 
+                               
+subject_domain_of_image_processing => nrel_main_idtf:[Предметная область генерации изображений] (*<- lang_ru;;*);[Subject domain of birds](*<- lang_en;;*);
+                               <- sc_node_struct;;  
+
+subject_domain_of_video_processing => nrel_main_idtf:[Предметная область генерации видео] (*<- lang_ru;;*);[Subject domain of rodents](*<- lang_en;;*);
+                               <- sc_node_struct;;   
+
+subject_domain_of_optimization => nrel_main_idtf:[Предметная область оптимизации] (*<- lang_ru;;*);[Subject domain of reptiles](*<- lang_en;;*);
+                               <- sc_node_struct;;                                
+                                                              
+
+
+concept_neural_networks <- sc_node_class;
+                => nrel_main_idtf:[нейронные сети] (*<- lang_ru;;*);[neural networks](*<- lang_en;;*);;  
+                
+concept_feed_forward_neural_networks<- sc_node_class;
+                 => nrel_main_idtf:[нейронные сети прямого распространения] (*<- lang_ru;;*);[feed forward neural networks](*<- lang_en;;*);; 
+                
+concept_convolutional_neural_network<- sc_node_class;
+                => nrel_main_idtf:[сверточные нейронные сети] (*<- lang_ru;;*);[convolutional neural network](*<- lang_en;;*);; 
+                
+concept_recurrent_neural_network<- sc_node_class;
+              => nrel_main_idtf:[рекуррентные нейронные сети] (*<- lang_ru;;*);[recurrent neural network](*<- lang_en;;*);;  
+              
+                                                                                        

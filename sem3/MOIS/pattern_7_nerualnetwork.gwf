@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/group" idtf="consept_specific_image_convolutional_neural_network" shapeColor="0" id="5287509152" parent="105553145703680" left="0" top="0" right="306.219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="475.024" y="551.34" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="5009978928" parent="105553145703680" x="480.024" y="390.34" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_convolution_operation*" shapeColor="0" id="5318345552" parent="105553145703680" left="0" top="0" right="164" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="580.024" y="383.34" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="4973887056" parent="105553145703680" x="417.024" y="248.34" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="consept_lung_diseases" shapeColor="0" id="4973415696" parent="105553145703680" left="0" top="0" right="129.234" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="561.024" y="484.34" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_pooling_operation*" shapeColor="0" id="4973916496" parent="105553145703680" left="0" top="0" right="140.922" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="597.024" y="286.34" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/group" idtf="" shapeColor="0" id="4993179840" parent="105553145703680" x="266.024" y="351.34" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="5287474688" parent="105553145703680" id_b="5318345552" id_e="5287475712" b_x="580.024" b_y="383.34" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.431097">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="5287476640" parent="105553145703680" id_b="4993179840" id_e="4973887056" b_x="266.024" b_y="351.34" e_x="417.024" e_y="248.34" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="5287477344" parent="105553145703680" id_b="4973916496" id_e="5287790848" b_x="597.024" b_y="286.34" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.468536">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="5287480864" parent="105553145703680" id_b="4993179840" id_e="5009978928" b_x="266.024" b_y="351.34" e_x="480.024" e_y="390.34" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="5287475392" parent="105553145703680" id_b="5287509152" id_e="4973415696" b_x="475.024" b_y="551.34" e_x="561.024" e_y="484.34" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="5287790848" parent="105553145703680" id_b="5009978928" id_e="4973887056" b_x="480.024" b_y="390.34" e_x="417.024" e_y="248.34" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="5287475712" parent="105553145703680" id_b="4973415696" id_e="5009978928" b_x="561.024" b_y="484.34" e_x="480.024" e_y="390.34" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="pattern_7_nerualnetwork" shapeColor="193" id="105553145703680" parent="0" left="0" top="0" right="144.563" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-313" idtf_pos_y="-176">
+            <points>
+                <point x="208" y="198"/>
+                <point x="220" y="592"/>
+                <point x="849" y="592"/>
+                <point x="818" y="204"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

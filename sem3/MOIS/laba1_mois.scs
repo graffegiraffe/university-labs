@@ -1,0 +1,28 @@
+concept_neural_network
+<-cconcept_convolutional_neural_network;
+<-rrel_key_sc_element: ...
+(*
+   =>nrel_translation_sc_text: ...
+   (*
+      <- explanation;; 
+    	=> constant_used: ... 
+        (* 
+    	    -> concept_image_processing_model ;; 
+        *);; 
+   => translation: ... 
+	(* 
+   ->[Класс нейронных сетей, который специализируется на обработке изображений и видео.](* <- russian_language;;*);;
+   *);;
+   *);;
+*);
+   =>nrel_main_idtf:
+   [convolutional neural network] (* <- english_language;; *);
+   [сверточная нейронная сеть ] (* <- russian_language;;*);
+
+   =>nrel_processing: ...
+(*
+   ->rrel_video;;
+   ->rel_image;;
+*);  
+-> sc_node_convolutional_neural_network_for_skin_cancer_detection;;
+sc_node_convolutional_neural_network_for_skin_cancer_detection=> nrel_convolution : detection_non_detection_of_skin_cancer;;
